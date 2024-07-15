@@ -3,106 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Portfolio Website</title>
-
 </head>
 <body>
+    <!-- Header Section -->
     <header class="header">
-        <nav class="navbar">    
+        <nav class="navbar">
             <a href="#home" class="nav-link">Home</a>
             <a href="#about" class="nav-link">About</a>
             <a href="#projects" class="nav-link">Projects</a>
-            <a href="=#skills" class="nav-link">Skils</a>
-            <a href="contact" class="nav-link">Contact</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">Contact</a>
         </nav>
-    </header>
 
+    </header>
+    <!-- Header Section Ends -->
+
+    <!-- Home Section -->
     <section id="home" class="section home">
-        <div>
+        <div class="home-content">
             <h1>web Developer Portfolio</h1>
             <p>Hey! I'm Valerii Solovei, a front end Developer.</p>
         </div>
-
     </section>
-    <section >
+    <!-- Home Section Ends -->
+
+    <!-- About Section -->
+    <section class="section about">
         <h2>About Section</h2>
-    <div class="about content">
-        <div class="about section">
-            <img src="" alt="about me">
+    <div class="about-content">
+        <div class="about-image">
+            <img src="https://i.pinimg.com/originals/06/43/cc/0643ccb0a8cc169e1aab7c422fa4ee04.gif" alt="About me">
         </div>
-        <div>
-            <p>Web Developer the frond end developer</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, voluptatem error corporis, facilis cumque consequuntur temporibus possimus impedit vel iure corrupti ea autem hic iusto tenetur sequi porro. Veritatis, aliquam.</p>
+        <div class="about-text">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus delectus tempore totam accusamus perspiciatis, id enim ipsa porro dolorem pariatur itaque quibusdam temporibus, vero rem saepe voluptates quidem nihil quis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus delectus tempore totam accusamus perspiciatis, id enim ipsa porro dolorem pariatur itaque quibusdam temporibus, vero rem saepe voluptates quidem nihil quis.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus delectus tempore totam accusamus perspiciatis, id enim ipsa porro dolorem pariatur itaque quibusdam temporibus, vero rem saepe voluptates quidem nihil quis.</p>
         </div>
     </div>
     </section>
 
+    <!-- About Section Ends -->
+
+    <!-- Project Section -->
     <section id="projects" class="section projects">
         <h2>Projects</h2>
-        <div class="project-grid">
-            <img src="https://26.media.tumblr.com/tumblr_l0e5mabfq61qzprr1o1_500.jpg" alt="">
-            <h3>Projec</h3>
-            <p>Desctiption of project</p>
-            <a href=" https://4ku1a.github.io/firstcode/">Note</a>
+        <div class="projects-grid">
+            <div class="project-item">
+                <img src="https://26.media.tumblr.com/tumblr_l0e5mabfq61qzprr1o1_500.jpg" alt="Project 1">
+                <h3>Project</h3>
+                <p>Description of Project</p>
+                <a href="https://4ku1a.github.io/firstcode/">Note</a>
+            </div>
+            <div class="project-item">
+                <img src="https://via.placeholder.com/400x300" alt="Project 2">
+                <h3>Project</h3>
+                <p>Description of Project</p>
+                <a href="https://4ku1a.github.io/css">Note</a>
+            </div>
+            <div class="project-item">
+                <img src="https://media.sciencephoto.com/f0/20/25/93/f0202593-400px-wm.jpg" alt="Project 3">
+                <h3>Project</h3>
+                <p>Description of Project</p>
+                <a href="https://4ku1a.github.io/css/">Note</a>
+            </div>
+            <div class="project-item">
+                <img src="https://media.sciencephoto.com/f0/20/25/93/f0202593-400px-wm.jpg" alt="Project 4">
+                <h3>Project</h3>
+                <p>Description of Project</p>
+                <a href="https://4ku1a.github.io/css/">Note</a>
+            </div>
+            
         </div>
     </section>
 
-    <section id="projects" class="section projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <img src="https://media.sciencephoto.com/f0/20/25/93/f0202593-400px-wm.jpg" alt="">
-            <h3>Project</h3>
-            <p>Desctiption of project</p>
-            <a href=" https://4ku1a.github.io/css/">Note</a>
-    </section>
-    
-    
-    <section id="projects" class="section projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-            <h3>Project</h3>
-            <p>Desctiption of project</p>
-            <a href=" https://4ku1a.github.io/firstcode/">Note</a>
-        </div>
-    </section>
+    <!-- Project Section Ends-->
 
-    <section id="projects" class="section projects">
-        <h2>Projects</h2>
-        <div class="project-grid">
-            <img src="https://media.sciencephoto.com/f0/20/25/93/f0202593-400px-wm.jpg" alt="">
-            <h3>Project</h3>
-            <p>Desctiption of project</p>
-            <a href=" https://4ku1a.github.io/css/">Note</a>
-    </section>
-
-    <section id="skills" class="selection skills">
+    <!-- Skill Section -->
+    <section id="skills" class="section skills">
         <h2>Skills</h2>
         <ul>
-            <li>Python</li>
-            <li>Djungo</li>
-            <li>C#</li>
-            <li>Java</li>
+            <li>Node.js</li>
+            <li>React</li>
+            <li>Django</li>
+            <li>JavaScript</li>
         </ul>
     </section>
+    <!-- Skill Section Ends-->
 
-
-    <section>
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
         <h2>Contact</h2>
-        <form>
+        <form class="contact-form">
             <label for="name">Name</label>
             <input type="text" id="name" required>
             <label for="email">Email</label>
             <input type="email" id="email" required>
             <label for="message">Message</label>
-            <input type="message" id="message" row="4" required>
+            <textarea type="message" id="message" rows="4" required></textarea>
             <button class="button">Submit</button>
         </form>
     </section>
+    <!-- Contact Section Ends-->
 
+    <!-- Footer Section -->
     <footer class="footer">
-        <p>&copy; 2024 Valerii Solovei. All Rights Reserved</p>
+        <p>&copy; 2024 Valerii Solovei. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
